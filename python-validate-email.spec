@@ -3,7 +3,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.3
-Release:        2
+Release:        3
 Summary:        Validate_email verify if an email address is valid and really exists
 Group:          Development/Python
 License:        LGPL
@@ -14,7 +14,7 @@ BuildArch:      noarch
 BuildRequires:  python2-devel
 BuildRequires:  python2dist(setuptools)
 
-BuildRequires:  python3-devel
+BuildRequires:  python-devel
 BuildRequires:  python3dist(setuptools)
 
 %description
