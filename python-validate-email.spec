@@ -3,7 +3,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.3
-Release:        3
+Release:        4
 Summary:        Validate_email verify if an email address is valid and really exists
 Group:          Development/Python
 License:        LGPL
@@ -71,6 +71,5 @@ rm -rf %{pypi_name}.egg-info
 %files -n python3-%{pypi_name}
 %license LICENSE
 %doc README.rst
-%{python3_sitelib}/__pycache__/*
 %{python3_sitelib}/validate_email.py
-%{python3_sitelib}/validate_email-%{version}-py?.?.egg-info
+%{python3_sitelib}/validate_email-%{version}-py*.*.egg-info
