@@ -3,7 +3,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.3
-Release:        4
+Release:        5
 Summary:        Validate_email verify if an email address is valid and really exists
 Group:          Development/Python
 License:        LGPL
