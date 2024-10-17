@@ -7,7 +7,7 @@ Release:        5
 Summary:        Validate_email verify if an email address is valid and really exists
 Group:          Development/Python
 License:        LGPL
-URL:            http://github.com/syrusakbary/validate_email
+URL:            https://github.com/syrusakbary/validate_email
 Source0:        https://files.pythonhosted.org/packages/source/v/%{pypi_name}/validate_email-%{version}.tar.gz
 BuildArch:      noarch
 
