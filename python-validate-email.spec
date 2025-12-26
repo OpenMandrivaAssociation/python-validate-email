@@ -13,7 +13,6 @@ BuildArch:      noarch
 
 BuildRequires:  python-devel
 BuildRequires:  python%{pyver}dist(setuptools)
-%rename 	python3-validate-email = %{version}-%{release}
 
 %description
  Validate_email Validate_email is a package for Python that check if an email
